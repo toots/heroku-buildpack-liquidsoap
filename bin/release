@@ -5,6 +5,8 @@ cat <<EOF
 ---
 config_vars:
   LD_LIBRARY_PATH: .liquidsoap/ld
+  LIQUIDSOAP_BASE_DIR: ..
+  MAGIC: ../magic/magic.mime
   PATH: .liquidsoap/bin:/usr/local/bin:/usr/bin:/bin
 EOF
 
